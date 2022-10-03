@@ -33,5 +33,13 @@
 }
 
 #archnavbarlist li {
-    display : inline-block
+    display : inline-block;
+    font-family : sans-serif;
+    font-size: 14px;
+}
+
+#archnavbarlist li a {
+    color: #999;
+    font-weight: bold;
+    text-decoration: none;
 }
