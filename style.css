@@ -9,6 +9,7 @@
     background-size: 100%;
 }
 
+/* Ẩn phần chữ của h1 trong archnavbarlogo - SEO */
 #archnavbarlogo h1 {
     text-indent: -9999px;
 }
