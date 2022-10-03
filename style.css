@@ -1,3 +1,21 @@
-#arch-navbar-logo {
-    background: url(archnavbar/archlogo.8a05bc7f6cd1.svg) no-repeat!important;
+#archnavbarlogo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 190px;
+    background: url(https://archlinux.org/static/archnavbar/archlogo.8a05bc7f6cd1.svg)
+                no-repeat;
+    background-size: 100%;
+}
+
+#archnavbarlogo h1 {
+    text-indent: -9999px;
+}
+
+#archnavbar {
+    min-height: 40px!important;
+    padding: 10px 15px!important;
+    background: #333;
+    border-bottom: 5px #08c solid!important;
 }
