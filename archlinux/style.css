@@ -5,6 +5,7 @@
     border-bottom: 5px #08c solid!important;
 }
 
+/* Logo của web này, hiện logo bằng background */
 #archnavbarlogo {
     float: left;
     height: 40px;
@@ -18,8 +19,6 @@
 #archnavbarlogo h1 {
     text-indent: -9999px;
 }
-
-
 
 #archnavbarmenu {
     margin: 0;
