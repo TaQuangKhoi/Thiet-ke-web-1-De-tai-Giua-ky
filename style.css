@@ -1,7 +1,12 @@
+#archnavbar {
+    min-height: 40px!important;
+    padding: 10px 15px!important;
+    background: #333;
+    border-bottom: 5px #08c solid!important;
+}
+
 #archnavbarlogo {
     float: left;
-    margin: 0;
-    padding: 0;
     height: 40px;
     width: 190px;
     background: url(https://archlinux.org/static/archnavbar/archlogo.8a05bc7f6cd1.svg)
@@ -14,12 +19,7 @@
     text-indent: -9999px;
 }
 
-#archnavbar {
-    min-height: 40px!important;
-    padding: 10px 15px!important;
-    background: #333;
-    border-bottom: 5px #08c solid!important;
-}
+
 
 #archnavbarmenu {
     margin: 0;
@@ -36,6 +36,7 @@
     display : inline-block;
     font-family : sans-serif;
     font-size: 14px;
+    padding: 14px 15px 0;
 }
 
 #archnavbarlist li a {
