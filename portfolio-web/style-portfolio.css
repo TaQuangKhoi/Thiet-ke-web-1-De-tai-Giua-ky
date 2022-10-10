@@ -1,0 +1,37 @@
+body {
+    margin: 0; /* Để cho toàn website bám sát cạnh màn hình */
+}
+
+#btn-back {
+    height: 100%;
+    border: #0088cc;
+}
+
+#btn-back a {
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
+}
+
+.right-link {
+    float: right;
+}
+
+.nav li {
+    display: inline-flex;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#top-bar {
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #0088cc;
+}
