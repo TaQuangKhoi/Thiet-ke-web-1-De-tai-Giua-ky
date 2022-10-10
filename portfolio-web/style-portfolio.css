@@ -13,6 +13,7 @@ body {
 #btn-back {
     height: 100%;
     border: #0088cc;
+    font-weight: bold;
 }
 
 #btn-back a {
