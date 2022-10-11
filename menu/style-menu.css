@@ -18,6 +18,15 @@ body {
     transition: all 0.5s ease;
 }
 
+#box li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 10px #000;
+    transition: all 0.5s ease;
+}
 .box-item {
     width: 250px;
     height: 100px;
