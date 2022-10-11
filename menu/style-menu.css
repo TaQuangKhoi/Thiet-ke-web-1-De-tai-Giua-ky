@@ -5,7 +5,7 @@ body {
 #box {
     width: 75%;
     height: 88%;
-    background: #000;
+    background: #54acc0;
     margin : auto;
     position: fixed;
     left: 1%;
@@ -27,11 +27,13 @@ body {
     box-shadow: 0 0 10px #000;
     transition: all 0.5s ease;
 }
+
 .box-item {
     width: 250px;
     height: 100px;
     background: #fff;
     border-radius: 5px;
+    border: #333333;
     box-shadow: 0 0 10px #000;
     position: relative;
     margin: 10px;
@@ -51,4 +53,9 @@ body {
 
 .box-item:hover {
     transform: scale(1.1);
+}
+
+#archlinux {
+    background: url(https://archlinux.org/static/archnavbar/archlogo.8a05bc7f6cd1.svg) no-repeat !important;
+    background-size: 1em;
 }
