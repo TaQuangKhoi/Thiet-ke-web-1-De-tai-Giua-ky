@@ -56,6 +56,30 @@ body {
 }
 
 #archlinux {
+    overflow: hidden;
+    background-size: contain;
+}
+
+#archlinux:hover {
     background: url(https://archlinux.org/static/archnavbar/archlogo.8a05bc7f6cd1.svg) no-repeat !important;
-    background-size: 1em;
+    background-size: contain !important;
+
+    /* Ẩn chữ Arch Linux*/
+    text-indent: -500%;
+    overflow: hidden
+}
+
+#remnote {
+    overflow: hidden;
+
+}
+
+#remnote:hover {
+    background: url(https://www.remnote.com/assets/homepage/images/logoText.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    /* Ẩn chữ RemNote*/
+    text-indent: -500%;
+    overflow: hidden
 }
