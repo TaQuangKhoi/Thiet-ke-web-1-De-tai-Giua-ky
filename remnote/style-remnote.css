@@ -74,9 +74,16 @@ button.nav__button {
 
 }
 
+/* Chọn nút màu xanh dương
+ * - Bo góc
+ * - ẩn đường viền
+ */
 .btn--blue {
     color: white;
     background-color: #3668FF;
+    margin: 10px;
+    border-radius: 0.5rem;
+    border: none;
 }
 .btn--blue:hover {
     background-color: #2156DB;
