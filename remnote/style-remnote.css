@@ -4,16 +4,21 @@ body {
 
 nav {
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 2rem;.
+    max-width: 1600px;
 }
 
 #nav__container {
     display: inline-flex;
 }
 
-.nav__item {
+.nav__main {
     display: inline-flex;
+}
+
+.nav__item {
     padding: 0.5rem 1rem;
+    margin: 10px;
     font-weight: 500;
 }
 
@@ -26,16 +31,36 @@ nav {
     padding-left: 0.25rem;
 }
 
-.nav__main {
-}
-
 .nav__item--expend {
     flex-direction: column;
     justify-content: center;
 }
 
+.nav__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    border-radius: 0.5rem;
+}
+
+.nav__button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Chọn các nút <button> có class là .nav__button
+ * - bg-color: trong suốt
+ * - border: không
+ */
+button.nav__button {
+    background-color: transparent;
+    border: none;
+}
+
 #remnote-logo {
-    text-decoration: none;
+    text-decoration-line: none;
+    margin-right: auto;
 }
 
 #items-box {
