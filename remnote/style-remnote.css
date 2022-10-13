@@ -1,3 +1,28 @@
 #remnote-logo {
     text-decoration: none;
 }
+
+#items-box {
+    display: flex;
+    flex-direction: row;
+}
+
+#product {
+
+}
+
+#go-to-app {
+
+}
+
+.btn-blue {
+    color: white;
+    background-color: #3668FF;
+}
+.btn-blue:hover {
+    background-color: #2156DB;
+}
+
+.inline-flex {
+    display: inline-flex !important;
+}
