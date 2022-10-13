@@ -8,13 +8,30 @@ nav {
 }
 
 #nav__container {
-    display: inline-flex;
     align-items: center;
 }
 
 .nav__item {
+    display: inline-flex;
     padding: 0.5rem 1rem;
     font-weight: 500;
+}
+
+.nav__item--down-arrow {
+    height: 20px;
+    width: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    padding-top: 2px;
+    padding-left: 0.25rem;
+}
+
+.nav__main {
+}
+
+.nav__item--expend {
+    flex-direction: column;
+    justify-content: center;
 }
 
 #remnote-logo {
@@ -22,8 +39,6 @@ nav {
 }
 
 #items-box {
-    display: flex;
-    flex-direction: row;
 }
 
 #product {
@@ -34,11 +49,11 @@ nav {
 
 }
 
-.btn-blue {
+.btn--blue {
     color: white;
     background-color: #3668FF;
 }
-.btn-blue:hover {
+.btn--blue:hover {
     background-color: #2156DB;
 }
 .btn--nav {
@@ -48,4 +63,8 @@ nav {
 
 .inline-flex {
     display: inline-flex !important;
+}
+
+.inline-block {
+    display: inline-block !important;
 }
