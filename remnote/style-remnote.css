@@ -16,6 +16,10 @@ nav {
     display: inline-flex;
 }
 
+#nav-right {
+    justify-content: right;
+}
+
 .nav__item {
     padding: 0.5rem 1rem;
     margin: 10px;
@@ -58,9 +62,14 @@ button.nav__button {
     border: none;
 }
 
+/*
+ * Chọn logo của remnote
+ * - để margin-right  thật lớn, kết hợp với max-width của nav
+ * tạo ra kết qua là nav sẽ nằm sát qua bên phải
+ */
 #remnote-logo {
     text-decoration-line: none;
-    margin-right: auto;
+    margin-right: 300px;
 }
 
 #items-box {
