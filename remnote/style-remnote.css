@@ -41,6 +41,10 @@ nav {
 .btn-blue:hover {
     background-color: #2156DB;
 }
+.btn--nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .inline-flex {
     display: inline-flex !important;
