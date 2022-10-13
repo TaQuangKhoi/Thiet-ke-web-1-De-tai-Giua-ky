@@ -7,12 +7,12 @@ nav {
     padding-right: 2rem;
 }
 
-#nav-container {
+#nav__container {
     display: inline-flex;
     align-items: center;
 }
 
-.nav-item {
+.nav__item {
     padding: 0.5rem 1rem;
     font-weight: 500;
 }
