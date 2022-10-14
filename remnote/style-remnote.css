@@ -3,9 +3,12 @@ body {
 }
 
 nav {
-    padding-left: 2rem;
-    padding-right: 2rem;.
+    margin: auto;
     max-width: 1600px;
+    border-style: solid;
+    border-color: rgb(231 231 239 / 1);
+    border-width: 0px;
+    border-bottom-width: 1px;
 }
 
 #nav__container {
