@@ -96,6 +96,7 @@ button.nav__button {
  * - ẩn đường viền
  */
 .btn--blue {
+    cursor: pointer;
     color: white;
     background-color: #3668FF;
     margin: 10px;
@@ -146,6 +147,7 @@ button.nav__button {
 #main__text-below {
     color: transparent;
     background-clip: text !important;
+    -webkit-background-clip: text;
     background: linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%);
 }
 
