@@ -159,3 +159,19 @@ button.nav__button {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+#main-img-container {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    margin-top: 1.5rem;
+    max-width: 1100px;
+}
+
+#shadow-back {
+    box-shadow: rgba(157, 90, 241, 0.4) 91px 44px 60.6074px -21.3125px,
+                rgba(113, 0, 255, 0.18) 85.25px -40px 119.217px -40px,
+                rgba(109, 200, 253, 0.65) -38px -19.9805px 95.9063px -21.3125px,
+                rgba(0, 161, 255, 0.27) -29.3047px 38.6289px 53.2812px -21.3125px,
+                rgba(0, 0, 0, 0.08) 0px 18.9474px 23.6842px -4.73684px,
+                rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+}
