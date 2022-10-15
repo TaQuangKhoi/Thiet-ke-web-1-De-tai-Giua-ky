@@ -138,3 +138,12 @@ button.nav__button {
     background-clip: text !important;
     background: linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%);
 }
+
+#section-1 sub {
+    color: rgb(99 99 123 / 1);
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    max-width: 42rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
