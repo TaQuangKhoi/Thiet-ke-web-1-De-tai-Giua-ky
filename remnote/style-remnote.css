@@ -206,3 +206,20 @@ button.nav__button {
     width: 100%;
     height: auto;
 }
+
+
+/* TRUSTED BY PEOPLE AT */
+
+/*
+ * In hoa toàn bộ chữ
+ */
+#trusted-by-people {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(145 145 168 / 1);
+    text-align: center;
+    height: 2.5rem;
+}
