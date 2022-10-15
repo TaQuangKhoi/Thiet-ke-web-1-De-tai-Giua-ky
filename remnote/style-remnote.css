@@ -101,6 +101,11 @@ button.nav__button {
     margin: 10px;
     border-radius: 0.5rem;
     border: none;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .btn--blue:hover {
     background-color: #2156DB;
