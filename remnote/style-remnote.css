@@ -13,10 +13,15 @@ nav {
     border-color: rgb(231 231 239 / 1);
     border-width: 0px;
     border-bottom-width: 1px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 3;
 }
 
 #nav__container {
     display: inline-flex;
+
 }
 
 .nav__main {
@@ -162,8 +167,15 @@ button.nav__button {
 
 #main-img-container {
     position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#main-img-landing-page {
     aspect-ratio: 16 / 9;
     margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1100px;
 }
 
@@ -174,4 +186,23 @@ button.nav__button {
                 rgba(0, 161, 255, 0.27) -29.3047px 38.6289px 53.2812px -21.3125px,
                 rgba(0, 0, 0, 0.08) 0px 18.9474px 23.6842px -4.73684px,
                 rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+    opacity: 1;
+}
+
+#main-img-landing-page img {
+    border-radius: 0.75rem;
+    box-shadow: rgba(157, 90, 241, 0.09) 85.25px -69.2656px 119.217px -37.9629px, rgba(109, 200, 253, 0.27) -29.3047px 38.6289px 53.2812px -21.3125px, rgba(0, 0, 0, 0.08) 0px 18.9474px 23.6842px -4.73684px, rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+    filter: drop-shadow(rgba(255, 255, 255, 0.06) 0px 0.947368px 3.78947px);
+}
+
+#img-main-landing {
+    width: 100%;
+    height: auto;
+
+}
+
+#img-main-phone {
+    display: block !important;
+    width: 100%;
+    height: auto;
 }
