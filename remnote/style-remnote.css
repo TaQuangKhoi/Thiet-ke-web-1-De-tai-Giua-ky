@@ -121,6 +121,10 @@ button.nav__button {
  * The all-in-one tool for
     thinking and learning
  */
+#section-1 {
+    text-align: center;
+}
+
 #section-1 h1 {
     line-height: 150%;
     font-size: 2rem;
