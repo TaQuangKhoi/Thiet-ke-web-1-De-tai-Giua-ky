@@ -116,3 +116,25 @@ button.nav__button {
 .inline-block {
     display: inline-block !important;
 }
+
+/* Dòng chữ
+ * The all-in-one tool for
+    thinking and learning
+ */
+#section-1 h1 {
+    line-height: 150%;
+    font-size: 2rem;
+    font-family: InterDisplay, Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+}
+
+#main__title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+#main__text-below {
+    color: transparent;
+    background-clip: text !important;
+    background: linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%);
+}
