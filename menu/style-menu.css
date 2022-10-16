@@ -20,9 +20,11 @@ h1 {
     top: 10%;
     bottom: 1%;
     right: 1%;
-    border-radius: 10px;
+
+    /* Border của hộm bao quanh các menu-item*/
+    border-radius: 30px;
     box-shadow: 0 0 10px #000;
-    z-index: 999;
+    
     transition: all 0.5s ease;
 }
 
