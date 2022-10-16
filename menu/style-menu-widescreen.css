@@ -87,7 +87,6 @@ h1 {
 
 #remnote {
     overflow: hidden;
-
 }
 
 #remnote:hover {
@@ -99,3 +98,13 @@ h1 {
     text-indent: -500%;
     overflow: hidden
 }
+
+/* Responsive */
+@media (max-width: 1200px) {
+    #box-grid {
+        grid-template-columns: 1fr 1fr;
+        align-content: start;
+    }
+}
+
+/* Hiện trên màn hình điện thoại */
