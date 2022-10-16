@@ -12,8 +12,8 @@ h1 {
 
 #box {
     width: 75%;
-    height: 88%;
-    background: #54acc0;
+    height: auto;
+    background: #bbdfe8;
     margin : auto;
     position: fixed;
     left: 1%;
