@@ -226,3 +226,15 @@ button.nav__button {
     text-align: center;
     height: 2.5rem;
 }
+
+@media (max-width: 1100px) {
+    #items-box {
+        display: none;
+    }
+}
+
+@media (max-width: 353px) {
+    #items-box {
+        display: none;
+    }
+}
