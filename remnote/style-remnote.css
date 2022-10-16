@@ -88,14 +88,6 @@ button.nav__button {
 #items-box {
 }
 
-#product {
-
-}
-
-#go-to-app {
-
-}
-
 /* Chọn nút màu xanh dương
  * - Bo góc
  * - ẩn đường viền
@@ -227,14 +219,29 @@ button.nav__button {
     height: 2.5rem;
 }
 
-@media (max-width: 1100px) {
-    #items-box {
+@media (min-width: 1100px) {
+    #burger {
         display: none;
     }
 }
 
-@media (max-width: 353px) {
+@media (max-width: 1100px) {
     #items-box {
         display: none;
     }
+
+    button#go-to-app {
+        display: none;
+    }
+}
+
+#burger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#burger {
+
 }
