@@ -1,6 +1,13 @@
 body {
-    margin: 0; /* Để cho toàn website bám sát cạnh màn hình */
-    background-color: #f0f9cc;
+    /* Để cho toàn website bám sát cạnh màn hình */
+    margin: 0;
+    height: 100vh; /* thuộc tính mang tính quyết định nè*/
+}
+
+#background-beautiful {
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(40deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
 }
 
 #top-bar {
@@ -8,7 +15,7 @@ body {
     border: 0;
     width: 100%;
     height: 50px;
-    background-color: #eeb4b4;
+    background-repeat: no-repeat;
 }
 
 #btn-back {
@@ -25,17 +32,32 @@ body {
     display: inline-flex;
 }
 
+
+/* Nội dung chính */
+
 ol {
     list-style: none;
+    padding-left: 10px;
 }
 
 .right-link {
     float: right;
+    margin-right: 10px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .nav li {
     display: inline-flex;
-    margin: 10px;
+}
+
+main {
+    margin: 0;
+    padding: 10px;
 }
 
 h1 {
