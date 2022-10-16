@@ -21,7 +21,7 @@ nav {
 
 #nav__container {
     display: inline-flex;
-
+    width: 100%;
 }
 
 .nav__main {
@@ -82,7 +82,7 @@ button.nav__button {
  */
 #remnote-logo {
     text-decoration-line: none;
-    margin-right: 300px;
+    margin-right: auto; /* auto giúp #nav-right nằm sát bên phải */
 }
 
 #items-box {
