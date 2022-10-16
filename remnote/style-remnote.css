@@ -190,7 +190,7 @@ button.nav__button {
 #main-img-landing-page img {
     border-radius: 0.75rem;
     box-shadow: rgba(157, 90, 241, 0.09) 85.25px -69.2656px 119.217px -37.9629px, rgba(109, 200, 253, 0.27) -29.3047px 38.6289px 53.2812px -21.3125px, rgba(0, 0, 0, 0.08) 0px 18.9474px 23.6842px -4.73684px, rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
-    filter: drop-shadow(rgba(255, 255, 255, 0.06) 0px 0.947368px 3.78947px);
+    /*filter: drop-shadow(rgba(255, 255, 255, 0.06) 0px 0.947368px 3.78947px);*/
 }
 
 #img-main-landing {
