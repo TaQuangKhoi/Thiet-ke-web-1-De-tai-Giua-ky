@@ -2,6 +2,7 @@ body {
     /* Để cho toàn website bám sát cạnh màn hình */
     margin: 0;
     height: 100vh; /* thuộc tính mang tính quyết định nè*/
+    /* 1 vh = 1/100 viewport height */
 }
 
 #background-beautiful {
