@@ -150,10 +150,13 @@ button.nav__button {
 }
 
 #main__text-below {
+
+    /* Làm cho backgroud hiện trong foreground */
     color: transparent;
-    background-clip: text !important;
-    -webkit-background-clip: text;
     background: linear-gradient(270deg,#db59ff 8.88%,#6870de 52.13%,#2ecae6 86.08%);
+    background-clip: revert;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 #section-1 sub {
