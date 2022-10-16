@@ -2,6 +2,14 @@ body {
     background-color: #65b0e7;
 }
 
+/* Cho h1 nằm giữa và Uppercase*/
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
 #box {
     width: 75%;
     height: 88%;
@@ -9,7 +17,7 @@ body {
     margin : auto;
     position: fixed;
     left: 1%;
-    top: 1%;
+    top: 10%;
     bottom: 1%;
     right: 1%;
     border-radius: 10px;
