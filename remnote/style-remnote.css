@@ -231,6 +231,19 @@ button.nav__button {
     }
 
     button#go-to-app {
+        display: block;
+        float: left;
+    }
+
+    #burger {
+        display: block;
+        float: right;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 440px) {
+    button#go-to-app {
         display: none;
     }
 }
