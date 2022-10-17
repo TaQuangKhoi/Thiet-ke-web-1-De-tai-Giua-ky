@@ -1,0 +1,12 @@
+#remnote-text-gradient {
+    color: transparent;
+    background-clip: revert;
+    background: linear-gradient(#8B37FF, #3668FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.75rem;
+}
