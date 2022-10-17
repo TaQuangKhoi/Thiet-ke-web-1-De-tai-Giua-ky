@@ -40,8 +40,8 @@ h1 {
 .items-download {
     border-radius: 0.75rem;
     box-sizing: border-box;
-    margin: 0;
-    box-shadow: 5px 5px 5px #888888;
+    margin: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     padding: 2rem;
     justify-content: space-between;
     align-items: center;
