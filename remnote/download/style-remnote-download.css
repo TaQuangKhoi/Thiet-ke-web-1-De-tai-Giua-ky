@@ -20,3 +20,33 @@ h1 {
     text-align: center;
     color: rgb(99 99 123 / 1);
 }
+
+/* DESKTOP */
+#desktop-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 20rem;
+}
+
+#desktop-text {
+    text-align: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.items-download {
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    margin: 0;
+    box-shadow: 5px 5px 5px #888888;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 13rem;
+    height: 15rem;
+    display: flex;
+}
