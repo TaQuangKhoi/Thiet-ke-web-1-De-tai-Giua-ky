@@ -19,6 +19,11 @@ nav {
     z-index: 3;
 }
 
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
 #nav__container {
     display: inline-flex;
     width: 100%;
